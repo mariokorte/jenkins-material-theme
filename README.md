@@ -18,7 +18,7 @@ You can turn your favorite frog CI tool into a handsome prince in few steps!
 
 ## Installation 
 
-### Using this GitHub page (recommended)
+### Using this GitHub page (recommended) (auto-updated)
 
 1. Install [Jenkins Simple Theme Plugin][simple]
 
@@ -26,14 +26,26 @@ You can turn your favorite frog CI tool into a handsome prince in few steps!
 
 1. Click `Configure System` and scroll down to `Theme`
 
-1. Specify the URL for `http://jenkins-contrib-themes.github.io/jenkins-material-theme/dist/material-light.css`.
+1. Specify the URL for `https://jenkins-contrib-themes.github.io/jenkins-material-theme/dist/material-light.css`.
 
 1. Click `Save`
 
 
+### Using the Native Jenkins Plugin
+
+1. Download the file https://github.com/jenkins-contrib-themes/jenkins-material-theme/raw/master/hpi/material-theme.hpi
+
+1. Go to `Manage Jenkins > Plugins > Advanced`
+
+1. Select the downloaded file in the area `Upload Plugin`
+
+1. Click `Upload`
+
+1. Restart your Jenkins Server
+
 ### Using your Jenkins Hosting
 
-1. Upload the file `http://jenkins-contrib-themes.github.io/jenkins-material-theme/dist/material-light.css` to your web server
+1. Upload the file `https://jenkins-contrib-themes.github.io/jenkins-material-theme/dist/material-light.css` to your web server
 
 1. Follow the steps of the previous method using your uploaded file as URL in step 4
 
@@ -42,7 +54,7 @@ You can turn your favorite frog CI tool into a handsome prince in few steps!
 
 1. Install the [Stylish Chrome extension][stylish]
 
-1. Copy the content of the file http://jenkins-contrib-themes.github.io/jenkins-material-theme/dist/material-light.css
+1. Copy the content of the file https://jenkins-contrib-themes.github.io/jenkins-material-theme/dist/material-light.css
 
 1. Go to Stylish options and click in `Write new style`
 
@@ -89,6 +101,7 @@ http://afonsof.mit-license.org/
 - [Stylish][stylish] for making the test of new versions easy
 - [canon-jenkins][canon-jenkins] for the base theme
 - [@Heldroe][heldroe] for Firefox and Microsoft support
+- [@bootstraponline][bootstraponline] for Jenkins native plugin
 
 [simple]: https://wiki.jenkins-ci.org/display/JENKINS/Simple+Theme+Plugin
 [google]: https://www.google.com/design/spec/material-design/introduction.html
@@ -97,3 +110,4 @@ http://afonsof.mit-license.org/
 [canon-jenkins]: https://github.com/rackerlabs/canon-jenkins
 [heldroe]: https://github.com/Heldroe
 [generator]: http://jenkins-contrib-themes.github.io/jenkins-material-theme
+[bootstraponline]: https://github.com/bootstraponline
